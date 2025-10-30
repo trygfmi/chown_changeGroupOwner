@@ -47,7 +47,7 @@ sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
 
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
-sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+sudo chown root: start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh</code></pre>
 
@@ -56,7 +56,7 @@ ls -l
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
 
-bash: ./test.sh: 許可がありません</code></pre>
+bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 </details>
 </div>
 
@@ -104,7 +104,7 @@ sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
 
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
-sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+sudo chown root: start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh</code></pre>
 
@@ -113,7 +113,7 @@ ls -l
 <details class="wp-block-details"><summary>出力結果</summary>
 <pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
 
-bash: ./test.sh: 許可がありません</code></pre>
+bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 </details>
 </div>
 
@@ -196,7 +196,7 @@ sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
 
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
-sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+sudo chown root: start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh</code></pre>
 
@@ -205,7 +205,7 @@ ls -l
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world
 
-bash: ./test.sh: 許可がありません</code></pre>
+bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 </details>
 </div>
 </details>
@@ -373,7 +373,7 @@ sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
 
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
-sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+sudo chown root: start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh</code></pre>
 
@@ -382,7 +382,7 @@ ls -l
 <details class="wp-block-details"><summary>詳細</summary>
 <pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world
 
-bash: ./test.sh: 許可がありません</code></pre>
+bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 </details>
 </div>
 
