@@ -44,12 +44,13 @@ ls -l
 ./start_chown_changeGroupOwner.sh
 
 ls -l
-chmod 454 start_chown_changeGroupOwner.sh
+sudo chmod 454 start_chown_changeGroupOwner.sh
 sudo chown :root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh
 
 sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
+chmod 644 start_chown_changeGroupOwner.sh
 ls -l</code></pre>
 
 
@@ -81,13 +82,15 @@ ls -l
 ./start_chown_changeGroupOwner.sh
 
 ls -l
-chmod 454 start_chown_changeGroupOwner.sh
+sudo chmod 454 start_chown_changeGroupOwner.sh
 sudo chown :group start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh
 
 sudo chown $(who | awk '{print $1}') start_chown_changeGroupOwner.sh
-sudo chown :staff start_chown_changeGroupOwner.sh</code></pre>
+sudo chown :staff start_chown_changeGroupOwner.sh
+chmod 644 start_chown_changeGroupOwner.sh
+ls -l</code></pre>
 
 
 
@@ -117,12 +120,13 @@ ls -l
 ./start_chown_changeGroupOwner.sh
 
 ls -l
-chmod 454 start_chown_changeGroupOwner.sh
+sudo chmod 454 start_chown_changeGroupOwner.sh
 sudo chown :root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh
 
 sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
+chmod 644 start_chown_changeGroupOwner.sh
 ls -l</code></pre>
 
 
@@ -210,12 +214,13 @@ ls -l
 ./start_chown_changeGroupOwner.sh
 
 ls -l
-chmod 454 start_chown_changeGroupOwner.sh
+sudo chmod 454 start_chown_changeGroupOwner.sh
 sudo chown :root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh
 
 sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
+chmod 644 start_chown_changeGroupOwner.sh
 ls -l</code></pre>
 
 
@@ -295,13 +300,15 @@ ls -l
 ./start_chown_changeGroupOwner.sh
 
 ls -l
-chmod 454 start_chown_changeGroupOwner.sh
+sudo chmod 454 start_chown_changeGroupOwner.sh
 sudo chown :group start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh
 
 sudo chown $(who | awk '{print $1}') start_chown_changeGroupOwner.sh
-sudo chown :staff start_chown_changeGroupOwner.sh</code></pre>
+sudo chown :staff start_chown_changeGroupOwner.sh
+chmod 644 start_chown_changeGroupOwner.sh
+ls -l</code></pre>
 
 
 
@@ -407,12 +414,13 @@ ls -l
 ./start_chown_changeGroupOwner.sh
 
 ls -l
-chmod 454 start_chown_changeGroupOwner.sh
+sudo chmod 454 start_chown_changeGroupOwner.sh
 sudo chown :root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
 ./start_chown_changeGroupOwner.sh
 
 sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
+chmod 644 start_chown_changeGroupOwner.sh
 ls -l</code></pre>
 
 
