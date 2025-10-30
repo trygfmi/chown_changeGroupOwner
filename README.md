@@ -43,13 +43,14 @@ sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時の�
 ls -l
 ./start_chown_changeGroupOwner.sh
 
-sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
-
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
-sudo chown root: start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+sudo chown :root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
-./start_chown_changeGroupOwner.sh</code></pre>
+./start_chown_changeGroupOwner.sh
+
+sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
+ls -l</code></pre>
 
 
 
@@ -71,7 +72,22 @@ bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeGroupOwner
+cd chown_changeGroupOwner
+ls -l
+chmod 454 start_chown_changeGroupOwner.sh
+sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+ls -l
+./start_chown_changeGroupOwner.sh
+
+ls -l
+chmod 454 start_chown_changeGroupOwner.sh
+sudo chown :group start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+ls -l
+./start_chown_changeGroupOwner.sh
+
+sudo chown $(who | awk '{print $1}') start_chown_changeGroupOwner.sh
+sudo chown :staff start_chown_changeGroupOwner.sh</code></pre>
 
 
 
@@ -100,13 +116,14 @@ sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時の�
 ls -l
 ./start_chown_changeGroupOwner.sh
 
-sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
-
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
-sudo chown root: start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+sudo chown :root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
-./start_chown_changeGroupOwner.sh</code></pre>
+./start_chown_changeGroupOwner.sh
+
+sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
+ls -l</code></pre>
 
 
 
@@ -192,13 +209,14 @@ sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時の�
 ls -l
 ./start_chown_changeGroupOwner.sh
 
-sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
-
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
-sudo chown root: start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+sudo chown :root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
-./start_chown_changeGroupOwner.sh</code></pre>
+./start_chown_changeGroupOwner.sh
+
+sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
+ls -l</code></pre>
 
 
 
@@ -226,7 +244,8 @@ bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git --version</code></pre>
 
 
 
@@ -252,7 +271,8 @@ bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
+echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
 </div>
 
 
@@ -266,12 +286,29 @@ bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>不可</code></pre>
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeGroupOwner
+cd chown_changeGroupOwner
+ls -l
+chmod 454 start_chown_changeGroupOwner.sh
+sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+ls -l
+./start_chown_changeGroupOwner.sh
+
+ls -l
+chmod 454 start_chown_changeGroupOwner.sh
+sudo chown :group start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+ls -l
+./start_chown_changeGroupOwner.sh
+
+sudo chown $(who | awk '{print $1}') start_chown_changeGroupOwner.sh
+sudo chown :staff start_chown_changeGroupOwner.sh</code></pre>
 
 
 
 <details class="wp-block-details"><summary>詳細</summary>
-<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>不可</code></pre>
+<pre class="wp-block-code has-24292-eff-color has-text-color has-background has-1-125-rem-font-size" style="background-color:#ffeeee"><code>hello chown command world
+
+bash: ./start_chown_changeGroupOwner.sh: Permission denied</code></pre>
 </details>
 </div>
 </details>
@@ -369,13 +406,14 @@ sudo chown root start_chown_changeGroupOwner.sh #パソコンログイン時の�
 ls -l
 ./start_chown_changeGroupOwner.sh
 
-sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
-
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
-sudo chown root: start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
+sudo chown :root start_chown_changeGroupOwner.sh #パソコンログイン時のパスワードを入力してください
 ls -l
-./start_chown_changeGroupOwner.sh</code></pre>
+./start_chown_changeGroupOwner.sh
+
+sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.sh
+ls -l</code></pre>
 
 
 
