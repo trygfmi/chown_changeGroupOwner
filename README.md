@@ -450,7 +450,7 @@ bash: ./start_chown_changeGroupOwner.sh: Permission denied</code></pre>
 
 
 <div class="wp-block-group">
-<p>1回目の実行は、ユーザーの所有者をrootにしているだけなので実行できますが、2回目の実行は、ユーザーとグループの所有者をrootにしているのでどちらでも実行できず、その他も読み込み権限しかないため実行できません<br>sudo chown root: ~を実行するとユーザーとグループが一括で変更され、sudo chown :rootとするとグループだけが変更されます<br>sudo chown $(who | awk '{print $1}'): test.shは、$(who | awk '{print $1}'):の部分でアカウント名を取得してファイルのユーザーとグループを一括で変更しています</p>
+<p>1回目の実行は、ユーザーの所有者をrootにしているだけなので実行できますが、2回目の実行は、ユーザーとグループの所有者をrootにしているのでどちらでも実行できず、その他も読み込み権限しかないため実行できません<br>sudo chown root: ~を実行するとユーザーとグループが一括で変更され、sudo chown :rootとするとグループだけが変更されます<br>sudo chown $(who | awk '{print $1}'): start_chown_changeGroupOwner.shは、$(who | awk '{print $1}'):の部分でアカウント名を取得してファイルのユーザーとグループを一括で変更しています</p>
 
 
 
