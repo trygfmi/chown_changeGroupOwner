@@ -73,7 +73,8 @@ bash: ./start_chown_changeGroupOwner.sh: 許可がありません</code></pre>
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeGroupOwner
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/chown_changeGroupOwner
 cd chown_changeGroupOwner
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
@@ -95,7 +96,9 @@ ls -l</code></pre>
 
 
 <details class="wp-block-details"><summary>出力結果</summary>
-<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>不可</code></pre>
+<pre class="wp-block-code has-background" style="background-color:#ffeeee"><code>hello chown command world
+
+bash: ./start_chown_changeGroupOwner.sh: Permission denied</code></pre>
 </details>
 </div>
 
@@ -277,7 +280,7 @@ git --version</code></pre>
 
 
 <pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>sudo port install git
-echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></pre>
+echo 'alias git="/opt/local/bin/git"' &gt;&gt; ~/bashrc_folder/macports_alias</code></pre>
 </div>
 
 
@@ -291,7 +294,8 @@ echo 'alias git="/opt/local/bin/git"' >> ~/bashrc_folder/macports_alias</code></
 
 
 
-<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>git clone https://github.com/trygfmi/chown_changeGroupOwner
+<pre class="wp-block-code has-24292-eff-color has-cyan-bluish-gray-background-color has-text-color has-background has-1-125-rem-font-size"><code>source ~/bashrc_folder/macports_alias
+git clone https://github.com/trygfmi/chown_changeGroupOwner
 cd chown_changeGroupOwner
 ls -l
 chmod 454 start_chown_changeGroupOwner.sh
